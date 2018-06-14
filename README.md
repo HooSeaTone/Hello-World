@@ -68,3 +68,7 @@ git commit -m "Comments to the Changes this time"
 
 git status
 
+git clone git@github.com:HooSeaTone/Hello-World.git
+
+git push -u origin master
+
