@@ -22,7 +22,7 @@ $ git init    (initializing the working directory)
 
 $ ls -ah      (list files)
 
-$ git add “filename”
+$ git add “filename”    (-A 一次添加所有相关改动的文件）
   
 $ git commit -m "Comments to the Changes this time"
 
@@ -57,8 +57,14 @@ $ git reflog
 
 
 总结： 常用命令简化如下：
+
 git status
+
 git add -A
+
 git status
+
 git commit -m "Comments to the Changes this time"
+
 git status
+
