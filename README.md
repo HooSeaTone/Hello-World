@@ -22,15 +22,15 @@ $ git init    (initializing the working directory)
 
 $ ls -ah      (list files)
 
-$ git add <filename>
+$ git add “filename”
   
 $ git commit -m "Comments to the Changes this time"
 
 $ git status   (to observe the status at present)
 
-$ git checkout -- <filename>     (not including the specified file)
+$ git checkout -- “filename”    (not including the specified file)
   
-$ git diff <filename>
+$ git diff “filename”
   
 $ git log
 
@@ -38,7 +38,7 @@ $ git log --pretty=oneline
 
 $ git reset --hard HEAD^  (or HEAD-100, or version-hash, no need to a complete hash.)
 
-$ cat <filename>
+$ cat “filename”
   
 $ git reflog
 
