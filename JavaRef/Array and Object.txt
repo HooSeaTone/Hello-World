@@ -1,0 +1,30 @@
+数组是一组按顺序排列的集合，集合的每个值称为元素。JavaScript的数组可以包括任意数据类型。例如：
+
+[1, 2, 3.14, 'Hello', null, true];
+
+JavaScript的对象是一组由键-值组成的无序集合，例如：
+
+var person = {
+
+    name: 'Bob',
+	
+    age: 20,
+	
+    tags: ['js', 'web', 'mobile'],
+	
+    city: 'Beijing',
+	
+    hasCar: true,
+	
+    zipcode: null
+	
+};
+
+
+如果一个变量没有通过var申明就被使用，那么该变量就自动被申明为全局变量：
+
+使用var申明的变量则不是全局变量，它的范围被限制在该变量被申明的函数体内（函数的概念将稍后讲解），同名变量在不同的函数体内互不冲突。
+
+或者：启用strict模式，方法是在JavaScript代码的第一行写上：
+
+'use strict';
