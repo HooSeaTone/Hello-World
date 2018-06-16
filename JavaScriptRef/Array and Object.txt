@@ -28,3 +28,16 @@ var person = {
 或者：启用strict模式，方法是在JavaScript代码的第一行写上：
 
 'use strict';
+
+
+var xiaoming = {
+
+    name: '小明'
+};
+
+判断一个对象本身是否拥有某项属性
+
+xiaoming.hasOwnProperty('name'); // true
+
+xiaoming.hasOwnProperty('toString'); // false
+
